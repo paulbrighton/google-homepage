@@ -150,6 +150,13 @@ input[type=text] {
     box-shadow: 1px 1px 1px #cecece; 
 }
 
+.mic-image {
+    background-image: url('images/mic.png');
+    background-position:right;   
+background-repeat:no-repeat;   
+padding-left:17px;
+}
+
 
 /* Footer
 =================================================*/
@@ -175,7 +182,9 @@ footer {
 .country-id p {
     color: rgb(117, 117, 117);
     margin-left: 35px;
-    padding: 20px 0;
+    padding: 15px 0;
+    font-size: 0.9em;
+    font-weight: 300;
     
 }
 
@@ -184,3 +193,39 @@ footer {
 /* Footer Navigation
 =================================================*/
 
+footer nav ul {
+    vertical-align: middle;
+}
+
+footer nav li {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+footer nav li a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+footer nav li a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav {
+    padding: 15px 0;
+}
+.nav-items-left {
+    display: inline-block;
+    margin-left: 35px;
+  
+}
+
+.nav-items-right {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+}
